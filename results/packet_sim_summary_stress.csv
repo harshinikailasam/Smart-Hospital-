@@ -1,0 +1,9 @@
+scale,fail,config,icu_p95_std_over_seeds,ICU_delay_ms,ICU_p95_ms,ICU_loss_pct,TELEMEDICINE_loss_pct,IOT_loss_pct,eqi_avg,eqi_min,steps_below_floor,reroutes
+1.5,False,Baseline + FIFO,0.016,35.764,44.254,24.425,24.86,0.0,0.76,0.348,7.333,0
+1.5,False,Agent + FIFO,0.024,25.596,37.851,9.062,14.839,0.0,0.873,0.567,2.333,1
+1.5,False,Baseline + Priority queue,0.022,5.884,6.105,0.0,32.721,0.0,0.726,0.391,9.667,0
+1.5,False,Agent + Priority queue,0.023,5.866,6.085,0.0,17.787,0.0,0.861,0.555,3,1
+2.0,False,Baseline + FIFO,0.054,43.169,44.461,44.871,42.053,0.0,0.552,0.253,15.333,0
+2.0,False,Agent + FIFO,0.437,35.328,38.585,22.577,34.752,0.0,0.68,0.404,11.333,3
+2.0,False,Baseline + Priority queue,0.102,5.931,6.281,0.0,56.394,0.0,0.481,0.211,17.333,0
+2.0,False,Agent + Priority queue,0.446,6.025,6.785,0.0,42.035,0.0,0.631,0.332,14,3
